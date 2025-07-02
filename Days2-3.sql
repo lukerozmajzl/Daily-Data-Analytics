@@ -92,7 +92,6 @@ SELECT
 FROM phone_sales_by_month
 GROUP BY month, brand
 ORDER BY brand, month;
-*/
 
 SELECT
   first_name,
@@ -102,3 +101,4 @@ SELECT
   AVG(salary) OVER(PARTITION BY department) AS dep_avg_salary
 FROM employees
 ORDER BY dep_avg_salary DESC;
+*/
